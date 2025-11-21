@@ -6,11 +6,11 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-alias bshp='${=EDITOR} $HOME/.bash_profile'
-alias bshrc='${=EDITOR} $HOME/.bashrc'
-alias gcfg='${=EDITOR} $HOME/.gitconfig'
-alias gign='${=EDITOR} $HOME/.gitignore'
-alias zshrc='${=EDITOR} $HOME/.zshrc'
+alias bshp='$EDITOR $HOME/.bash_profile'
+alias bshrc='$EDITOR $HOME/.bashrc'
+alias gcfg='$EDITOR $HOME/.gitconfig'
+alias gign='$EDITOR $HOME/.gitignore'
+alias zshrc='$EDITOR $HOME/.zshrc'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
