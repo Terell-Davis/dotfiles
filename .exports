@@ -3,6 +3,9 @@
 # Make nano the default editor.
 export EDITOR='nano';
 
+# Path for golang
+export PATH=$PATH:/usr/local/go/bin
+
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
 
