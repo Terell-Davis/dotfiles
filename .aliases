@@ -68,3 +68,6 @@ alias apsucks='source /etc/apache2/envvars'
 
 # I am surprised with how Caddy just works. Check Config File
 alias chcaddy='caddy validate --config /etc/caddy/Caddyfile'
+
+# For Locales
+alias reconlocales='sudo dpkg-reconfigure locales'
