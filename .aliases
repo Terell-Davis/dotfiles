@@ -73,4 +73,4 @@ alias chcaddy='caddy validate --config /etc/caddy/Caddyfile'
 alias reconlocales='sudo dpkg-reconfigure locales'
 
 # Generate Hash password (SHA512) Python
-alias passgen='python -c 'import crypt,getpass; print(crypt.crypt(getpass.getpass(), crypt.mksalt(crypt.METHOD_SHA512)))''
+alias passgen="python -c 'import crypt,getpass; print(crypt.crypt(getpass.getpass(), crypt.mksalt(crypt.METHOD_SHA512)))'"
